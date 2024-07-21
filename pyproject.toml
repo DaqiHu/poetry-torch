@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "poetry_torch"
+version = "0.1.0"
+description = "A template for PyTorch users to install the correct version for your device."
+authors = ["DaqiHu <hudaqiwork@outlook.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.scripts]
+install = "scripts.install_torch:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
