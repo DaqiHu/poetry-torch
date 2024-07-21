@@ -2,6 +2,8 @@
 
 A template for PyTorch users to install the correct version for your device.
 
+This repo only support Windows and CUDA 12.1 for now. Linux, MacOS are scheduled. Please make issues if you require it eagerly.
+
 ## Usage
 
 Make sure Poetry is installed on your device.
@@ -30,6 +32,6 @@ The support to run uninstalled scripts will be removed in a future release.
 Run `poetry install` to resolve and get rid of this message.
 ```
 
-That's because at this point the `.venv` is not created, and Poetry is using global `python.exe` to interpret this script. 
+That's because at this point the `.venv` is not created, and Poetry is using global `python.exe` to interpret this script.
 
 This will not affect package installation. They will be installed in venv as usual. Please just ignore this warning message.
